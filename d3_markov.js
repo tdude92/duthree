@@ -4,7 +4,7 @@ const process = require('process');
 
 const djsConfig = require('./config/djs_config.json');
 const markovChainInitial = require('./markov_chains/markov_chain_initial.json');
-var markovChain = require('./markov_chains/general.json');
+var markovChain = require('./markov_chains/beemovie.json');
 var channels = require('./config/channels.json');
 
 const client = new Discord.Client();
@@ -229,7 +229,7 @@ client.on('message', async message => {
             } else if (parsedMsg[1] == 'resetMarkov') {
                 // Train a new brain
                 trainMarkovChain('./data/' + currFileName + '.txt');
-                console.log(`Trained Markov Chain with data from ./data/${parsedMsg[2]}`);
+                console.log(`Trained Markov Chain with data from ./data/${currFileName}`);
                 message.channel.send(`Reset ${currFileName}.json with data from ${currFileName}.txt.`);
             } else if (parsedMsg[1] == 'listen') {
                 // Listen to text channel
