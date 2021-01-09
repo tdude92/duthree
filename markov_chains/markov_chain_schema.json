@@ -1,0 +1,21 @@
+{
+    "nMsgs": 2,
+    "avgMsgLength": 5,
+    "graph": {
+        "__START__": {
+            "totalNext": 10,
+            "next": {
+                "a": [1, 0.1],
+                "b": [9, 0.9]
+            }
+        },
+        "<EXAMPLE_WORD>": {
+            "totalNext": 10,
+            "next": {
+                "a": [2, 0.2],
+                "b": [7, 0.7],
+                "__END__": [1, 0.1]
+            }
+        }
+    }
+}
