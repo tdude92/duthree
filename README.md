@@ -9,12 +9,15 @@ The default Markov model duthree uses is the Bee Movie script.
 It's more fun when duthree's Markov model is trained on a Discord groupchat, though.
 
 ![](./demo/demo1.png)
+
 Example 1: duthree's first message lol
 
 ![](./demo/demo2.png)
+
 Example 2: Tragic rejection :(
 
 ![](./demo/demo3.png)
+
 Example 3: Memorable quote
 
 
