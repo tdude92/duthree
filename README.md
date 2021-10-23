@@ -1,7 +1,5 @@
 # duthree
-A Discord bot that uses Markov Chains to generate text messages :)
-
-the name's duthree bc my username's dutwo x)
+A Discord bot that uses Markov Chains to generate text messages.
 
 # Examples
 The default Markov model duthree uses is the Bee Movie script.
@@ -10,7 +8,7 @@ It's more fun when duthree's Markov model is trained on a Discord groupchat, tho
 
 ![](./demo/demo1.png)
 
-Example 1: duthree's first message lol
+Example 1: duthree's first message
 
 ![](./demo/demo2.png)
 
@@ -30,7 +28,7 @@ In the terminal, run:
 
 `python3 d3_setup.py`
 
-`node d3_markov.js`
+`node index.js`
 
 Once your bot's up and running, send ">d3 help" and ">d3 adminhelp" to get a list of available commands.
 
