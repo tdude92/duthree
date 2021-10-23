@@ -1,7 +1,15 @@
 # duthree
 A Discord bot that uses Markov Chains to generate text messages.
 
-# Examples
+## Functionality
+duthree is able to:
+
+1. Gather message data from Discord text channels.
+2. Generate Markov models based on the gathered message data.
+3. Swap between different Markov models.
+4. Listen to the messages sent in specific channels and dynamically update its Markov model accordingly.
+
+## Examples
 The default Markov model duthree uses is the Bee Movie script.
 
 It's more fun when duthree's Markov model is trained on a Discord groupchat, though.
@@ -19,7 +27,7 @@ Example 2: Tragic rejection :(
 Example 3: Memorable quote
 
 
-# Setup Instructions
+## Setup Instructions
 In the terminal, run:
 
 `npm install discord.js`
@@ -35,11 +43,3 @@ Once your bot's up and running, send ">d3 help" and ">d3 adminhelp" to get a lis
 To get a generated message, type "duthree" or mention the bot in a channel that the bot has access to.
 
 Note: Since duthree uses Markov models, most messages don't make grammatical sense. The bot doesn't consider any user input either.
-
-# Functionality
-duthree is able to:
-
-1. Gather message data from Discord text channels.
-2. Generate Markov models based on the gathered message data.
-3. Swap between different Markov models.
-4. Listen to the messages sent in specific channels and dynamically update its Markov model accordingly.
